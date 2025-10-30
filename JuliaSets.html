@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Julia Sets of Special Rational Maps by Robert Thijs Kozma">
+  <title>Complex Dynamics - Robert Thijs Kozma</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-HKCTHEXLJ1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-HKCTHEXLJ1');
+  </script>
+  
+  <style>
+    .julia-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+      gap: 1.5rem;
+      margin: 2rem 0;
+    }
+    
+    .julia-item {
+      text-align: center;
+    }
+    
+    .julia-item img {
+      width: 100%;
+      max-width: 150px;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      margin: 0 auto;
+    }
+    
+    .julia-item p {
+      margin-top: 0.75rem;
+      font-size: 0.9rem;
+    }
+    
+    .formula {
+      background-color: var(--light-gray);
+      padding: 1rem;
+      border-radius: 6px;
+      font-family: 'Courier New', monospace;
+      margin: 1rem 0;
+      text-align: center;
+      font-weight: 500;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <h1 class="site-title">Robert Thijs Kozma</h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="research.html">Publications</a>
+        <a href="academic.html">Academic</a>
+        <a href="SVOHP.html">Packing Problems</a>
+        <a href="JuliaSets.html" class="active">Complex Dynamics</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h2>Julia Sets of Special Rational Maps</h2>
+
+    <p>Julia sets are the chaotic domain of iterated complex functions that map the complex plane to itself. Notice the fractal structure of the boundary of the colored region—this boundary is the Julia set! For the following two functions as λ goes to zero the Julia set becomes a space-filling fractal curve giving a better and better approximation of the λ=0 case (in the Hausdorff sense).</p>
+
+    <h3>Perturbed Basilica</h3>
+    <div class="formula">f(z) = z² − 1 + λ/z²</div>
+    
+    <div class="julia-grid">
+      <div class="julia-item">
+        <img src="b01.jpg" alt="Julia set with lambda=0.1" />
+        <p>λ = 0.1</p>
+      </div>
+      <div class="julia-item">
+        <img src="b001.jpg" alt="Julia set with lambda=0.01" />
+        <p>λ = 0.01</p>
+      </div>
+      <div class="julia-item">
+        <img src="b0001.jpg" alt="Julia set with lambda=0.001" />
+        <p>λ = 0.001</p>
+      </div>
+      <div class="julia-item">
+        <img src="js_unpert.jpg" alt="Basilica Julia set" />
+        <p><strong>Basilica</strong><br>λ = 0</p>
+      </div>
+    </div>
+
+    <h3>Perturbed Douady Rabbit</h3>
+    <div class="formula">f(z) = z² + (−0.123 + 0.745i) + λ/z²</div>
+    
+    <div class="julia-grid">
+      <div class="julia-item">
+        <img src="r001.jpg" alt="Julia set with lambda=0.01" />
+        <p>λ = 0.01</p>
+      </div>
+      <div class="julia-item">
+        <img src="r0001.jpg" alt="Julia set with lambda=0.001" />
+        <p>λ = 0.001</p>
+      </div>
+      <div class="julia-item">
+        <img src="r00001.jpg" alt="Julia set with lambda=0.0001" />
+        <p>λ = 0.0001</p>
+      </div>
+      <div class="julia-item">
+        <img src="rabbit1.jpg" alt="Douady Rabbit Julia set" />
+        <p><strong>Douady Rabbit</strong><br>λ = 0</p>
+      </div>
+    </div>
+
+    <hr>
+
+    <h3>Learn More</h3>
+    <p>You can read more about the dynamics of these particular maps <a href="http://www.math.stonybrook.edu/~rkozma/rkozma_PME_paper.pdf">here</a> (accessible to undergraduates) and <a href="http://math.bu.edu/people/bob/papers/kozma.pdf">here</a> (advanced). For some accessible background and interactive media on complex dynamics, take a look at the <a href="http://math.bu.edu/DYSYS/explorer/">Mandelbrot Set Explorer</a> and <a href="http://math.bu.edu/people/bob/">Bob Devaney's webpage</a>.</p>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>Last updated: October 2025</p>
+    </div>
+  </footer>
+</body>
+</html>
