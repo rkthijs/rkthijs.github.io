@@ -89,4 +89,4 @@ Then visit `http://localhost:8000`
 
 ---
 
-Last updated: October 2025
+Last updated: February 2026
