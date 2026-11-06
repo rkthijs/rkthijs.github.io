@@ -46,25 +46,25 @@
 </head>
 
 <body>
-  <header>
-    <div class="container">
-      <h1 class="site-title">Robert Thijs Kozma</h1>
-      <nav>
-        <a href="index.html">Bio</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">Robert Kozma<span class="brand-dot">.</span></a>
+      <nav aria-label="Main navigation">
+        <a href="index.html">Home</a>
         <a href="research.html">Publications</a>
         <a href="academic.html">Academic</a>
         <a href="SVOHP.html">Packing Problems</a>
-        <a href="JuliaSets.html" class="active">Complex Dynamics</a>
+        <a href="JuliaSets.html" class="active" aria-current="page">Complex Dynamics</a>
       </nav>
     </div>
   </header>
 
   <main class="container">
-    <h2>Julia Sets of Special Rational Maps</h2>
+    <h1 class="page-title">Julia Sets of Special Rational Maps</h1>
 
     <p>Julia sets are the chaotic domain of iterated complex functions that map the complex plane to itself. Notice the fractal structure of the boundary of the colored region—this boundary is the Julia set! For the following two functions as λ goes to zero the Julia set becomes a space-filling fractal curve giving a better and better approximation of the λ=0 case (in the Hausdorff sense).</p>
 
-    <h3>Perturbed Basilica</h3>
+    <h2>Perturbed Basilica</h2>
     <div class="formula">f(z) = z² − 1 + λ/z²</div>
     
     <div class="julia-grid">
@@ -86,7 +86,7 @@
       </div>
     </div>
 
-    <h3>Perturbed Douady Rabbit</h3>
+    <h2>Perturbed Douady Rabbit</h2>
     <div class="formula">f(z) = z² + (−0.123 + 0.745i) + λ/z²</div>
     
     <div class="julia-grid">
@@ -110,13 +110,14 @@
 
     <hr>
 
-    <h3>Learn More</h3>
+    <h2>Learn More</h2>
     <p>You can read more about the dynamics of these particular maps <a href="https://www.jstor.org/stable/24345298">here</a> (accessible to undergraduates) and <a href="http://math.bu.edu/people/bob/papers/kozma.pdf">here</a> (advanced). For some accessible background and interactive media on complex dynamics, take a look at the <a href="http://math.bu.edu/DYSYS/explorer/">Mandelbrot Set Explorer</a> and <a href="http://math.bu.edu/people/bob/">Bob Devaney's webpage</a>.</p>
   </main>
 
-  <footer>
-    <div class="container">
-      <p>Last updated: February 2026</p>
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© Robert Thijs Kozma</p>
+      <a href="index.html">Back to home ↑</a>
     </div>
   </footer>
 </body>

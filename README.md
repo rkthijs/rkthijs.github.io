@@ -4,7 +4,7 @@ A modern, minimalist personal website hosted on GitHub Pages.
 
 ## Overview
 
-This website showcases my work as a Principal Research Data Scientist at iSpot, focusing on Agentic AI, LLMs, and creative analysis, along with my academic background in mathematics.
+This website showcases my independent AI consulting work, focusing on generative AI, agentic systems, and multimodal AI, along with my academic background in mathematics.
 
 ## Features
 
@@ -23,31 +23,9 @@ This website showcases my work as a Principal Research Data Scientist at iSpot, 
 - `JuliaSets.html` - Complex dynamics and Julia sets
 - `style.css` - Modern, responsive CSS with CSS custom properties
 
-## Design Principles
+## Design
 
-### Modernization Updates (October 2025)
-
-1. **Semantic HTML5**: Replaced table-based layout with modern semantic elements (`<header>`, `<nav>`, `<main>`, `<footer>`)
-2. **CSS Grid & Flexbox**: Used modern layout techniques for responsive design
-3. **CSS Custom Properties**: Implemented CSS variables for consistent theming
-4. **Mobile-First**: Responsive breakpoints for all screen sizes
-5. **Typography**: Modern system font stack with improved readability
-6. **Visual Hierarchy**: Clear content structure with proper spacing
-7. **Accessibility**: Improved contrast, semantic markup, and screen reader support
-
-### Color Palette
-
-- Primary: `#2c3e50` (dark slate)
-- Accent: `#3498db` (blue)
-- Background: `#fff` (white)
-- Light Gray: `#f8f9fa`
-- Text: `#333`
-
-### Typography
-
-- Font Stack: System fonts (-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', etc.)
-- Base Line Height: 1.6
-- Responsive font sizes with `rem` units
+The site uses a responsive editorial layout, a blue and charcoal palette, and shared navigation across the portfolio and research pages. The home page highlights AI consulting services alongside mathematical research and explorations. The site remains static and requires no build process.
 
 ## GitHub Pages Compatibility
 
@@ -84,7 +62,7 @@ Then visit `http://localhost:8000`
 
 ## Contact
 
-- Email: rkozma2 [at] uic [dot] edu
+- Email: robert [at] kozma [dot] ai
 - [Google Scholar](https://scholar.google.com/citations?user=mAyPNVEAAAAJ)
 
 ---

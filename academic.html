@@ -9,13 +9,13 @@
 </head>
 
 <body>
-  <header>
-    <div class="container">
-      <h1 class="site-title">Robert Thijs Kozma</h1>
-      <nav>
-        <a href="index.html">Bio</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">Robert Kozma<span class="brand-dot">.</span></a>
+      <nav aria-label="Main navigation">
+        <a href="index.html">Home</a>
         <a href="research.html">Publications</a>
-        <a href="academic.html" class="active">Academic</a>
+        <a href="academic.html" class="active" aria-current="page">Academic</a>
         <a href="SVOHP.html">Packing Problems</a>
         <a href="JuliaSets.html">Complex Dynamics</a>
       </nav>
@@ -23,9 +23,9 @@
   </header>
 
   <main class="container">
-    <h2>Academic Background</h2>
+    <h1 class="page-title">Academic Background</h1>
 
-    <h3>Education</h3>
+    <h2>Education</h2>
     <ul>
       <li><strong>Ph.D. in Mathematics</strong>, University of Illinois at Chicago<br>
       Dissertation: <em>Central Limit Theorems and Packing Problems in Dynamics and Geometry</em><br>
@@ -36,16 +36,16 @@
       Advisor: Prof. Robert Devaney</li>
     </ul>
 
-    <h3>Research Experience</h3>
+    <h2>Research Experience</h2>
     <ul>
       <li><strong>Computational Neuroscience Lab</strong>, Boston University (Undergraduate)<br>
       Worked on neural network modeling and adaptive resonance theory, contributing to publications on memristive hardware and brain-computer interfaces.</li>
     </ul>
 
-    <h3>Curriculum Vitae</h3>
+    <h2>Curriculum Vitae</h2>
     <p>Download my full CV: <a href="rkozma_cv.pdf">rkozma_cv.pdf</a></p>
 
-    <h3>Teaching Statement</h3>
+    <h2>Teaching Statement</h2>
     <p>My teaching statement is available here: <a href="rkozma_teaching.pdf">rkozma_teaching.pdf</a></p>
 
     <hr>
@@ -71,9 +71,10 @@
     </ul>
   </main>
 
-  <footer>
-    <div class="container">
-      <p>Last updated: February 2026</p>
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© Robert Thijs Kozma</p>
+      <a href="index.html">Back to home ↑</a>
     </div>
   </footer>
 </body>

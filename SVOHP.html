@@ -57,26 +57,26 @@
 </head>
 
 <body>
-  <header>
-    <div class="container">
-      <h1 class="site-title">Robert Thijs Kozma</h1>
-      <nav>
-        <a href="index.html">Bio</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">Robert Kozma<span class="brand-dot">.</span></a>
+      <nav aria-label="Main navigation">
+        <a href="index.html">Home</a>
         <a href="research.html">Publications</a>
         <a href="academic.html">Academic</a>
-        <a href="SVOHP.html" class="active">Packing Problems</a>
+        <a href="SVOHP.html" class="active" aria-current="page">Packing Problems</a>
         <a href="JuliaSets.html">Complex Dynamics</a>
       </nav>
     </div>
   </header>
 
   <main class="container">
-    <h2>Structure and Visualization of Optimal Horoball Packings in 3-dimensional Hyperbolic Space</h2>
+    <h1 class="page-title">Structure and Visualization of Optimal Horoball Packings in 3-dimensional Hyperbolic Space</h1>
 
     <p>On this page we provide the computer code used to generate the figures in our paper with the above title. The paper may be found on <a href="http://arxiv.org/abs/1601.03620">ArXiv</a>.</p>
 
     <div class="code-section">
-      <h3>Mathematica Code Files</h3>
+      <h2>Mathematica Code Files</h2>
       <ol>
         <li>Böröczky-Florian case for the (3,3,6) tiling: <a href="code/Group_fig_BF.nb">Group_fig_BF.nb</a></li>
         <li>Kozma-Szirmai Case for the (3,3,6) tiling: <a href="code/Group_Fig_KSz.nb">Group_Fig_KSz.nb</a></li>
@@ -87,13 +87,13 @@
       <p><strong>Note:</strong> Adjust the "length" parameter to increase or decrease the layers of horoballs plotted. Values greater than 5 may cause Mathematica to crash while plotting depending on your system. By default we set "length=2" for two layers of horoballs.</p>
     </div>
 
-    <h3>About the Packings</h3>
+    <h2>About the Packings</h2>
     
     <p>Below are sample images from the code. We show the two optimal regular horoball packings of hyperbolic space that arise in the tessellation with Schläfli symbol (3,3,6). We use the Klein model of hyperbolic space. The images are produced by first plotting the balls in the fundamental domain of the tiling, and then generating the packing by applying elements of the Coxeter group of the tiling 4 and 5 times respectively.</p>
     
     <p>Notice the fractal self-similar structure that arises from the embedding of the packing into Euclidean 3-space. The balls appear to have different sizes in the model sphere, but with respect to the hyperbolic metric all balls are congruent. The Klein model is not conformal so the horoballs appear as ellipsoids. For the proofs of the optimality of these packings see <a href="http://arxiv.org/abs/1007.0722">our paper</a>.</p>
 
-    <h3>Böröczky-Florian Case</h3>
+    <h2>Böröczky-Florian Case</h2>
     <div class="packing-grid">
       <div class="packing-item">
         <img src="4gen_BF.jpg" alt="Böröczky-Florian packing with 4 layers" />
@@ -105,7 +105,7 @@
       </div>
     </div>
 
-    <h3>Kozma-Szirmai Case</h3>
+    <h2>Kozma-Szirmai Case</h2>
     <div class="packing-grid">
       <div class="packing-item">
         <img src="4gen_KSz.jpg" alt="Kozma-Szirmai packing with 4 layers" />
@@ -118,9 +118,10 @@
     </div>
   </main>
 
-  <footer>
-    <div class="container">
-      <p>Last updated: February 2026</p>
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© Robert Thijs Kozma</p>
+      <a href="index.html">Back to home ↑</a>
     </div>
   </footer>
 </body>
