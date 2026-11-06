@@ -4,7 +4,7 @@ A modern, minimalist personal website hosted on GitHub Pages.
 
 ## Overview
 
-This website showcases my independent AI consulting work, focusing on generative AI, agentic systems, and multimodal AI, along with my academic background in mathematics.
+This website presents my independent AI consulting services and experience in marketing and adtech, with an invitation to projects across industries. It covers generative AI, agentic systems, and multimodal AI, along with my academic background in mathematics.
 
 ## Features
 
