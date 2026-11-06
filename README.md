@@ -16,16 +16,18 @@ This website showcases my independent AI consulting work, focusing on generative
 
 ## Structure
 
-- `index.html` - Home page with current role and bio
+- `index.html` - Consulting services, selected SAGE AI work, background, and contact
 - `research.html` - Publications organized by theme
-- `academic.html` - Academic background, CV, and teaching experience
+- `academic.html` - Academic education, research, and CV
 - `SVOHP.html` - Horoball packing problems visualization
 - `JuliaSets.html` - Complex dynamics and Julia sets
-- `style.css` - Modern, responsive CSS with CSS custom properties
+- `teaching.html` - Teaching and outreach experience
+- `style.css` - Shared responsive typography, layout, and accessibility styles
+- `theme.js` - System theme detection and persistent light/dark preference
 
 ## Design
 
-The site uses a responsive editorial layout, a blue and charcoal palette, and shared navigation across the portfolio and research pages. The home page highlights AI consulting services alongside mathematical research and explorations. The site remains static and requires no build process.
+The site uses a restrained editorial layout, warm off-white background, and blue accents. The home page presents consulting services, past work on iSpot SAGE AI, and a mathematics background. Shared typography, keyboard skip links, and responsive layouts carry through to the research pages. A light/dark toggle follows the system preference until a visitor makes a choice, then remembers it across pages. Both themes also work without JavaScript using the system preference. The site remains static and requires no build process.
 
 ## GitHub Pages Compatibility
 
@@ -40,11 +42,7 @@ This website is fully compatible with GitHub Pages:
 Simply open any HTML file in a web browser. For a local server:
 
 ```bash
-# Python 3
-python -m http.server 8000
-
-# Python 2
-python -m SimpleHTTPServer 8000
+python3 -m http.server 8000
 ```
 
 Then visit `http://localhost:8000`
@@ -67,4 +65,4 @@ Then visit `http://localhost:8000`
 
 ---
 
-Last updated: February 2026
+Last updated: November 2026
