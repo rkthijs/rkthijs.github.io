@@ -47,6 +47,14 @@ python3 -m http.server 8000
 
 Then visit `http://localhost:8000`
 
+After changing `style.css` or `theme.js`, refresh their cache versions before committing:
+
+```bash
+python3 scripts/version_assets.py
+```
+
+This updates the asset URLs in every page using content hashes, so browsers fetch the matching files after a deployment instead of reusing an older stylesheet or script.
+
 ## Browser Support
 
 - Chrome/Edge (latest)
