@@ -16,7 +16,7 @@ This website presents my independent AI consulting services and experience in ma
 
 ## Structure
 
-- `index.html` - Consulting services, selected SAGE AI work, background, and contact
+- `index.html` - Consulting services, selected SAGE AI and Ace Metrix work, background, and contact
 - `research.html` - Publications organized by theme
 - `academic.html` - Academic education, research, and CV
 - `SVOHP.html` - Horoball packing problems visualization
@@ -27,7 +27,7 @@ This website presents my independent AI consulting services and experience in ma
 
 ## Design
 
-The site uses a restrained editorial layout, warm off-white background, and blue accents. The home page presents consulting services, past work on iSpot SAGE AI, and a mathematics background. Shared typography, keyboard skip links, and responsive layouts carry through to the research pages. A light/dark toggle follows the system preference until a visitor makes a choice, then remembers it across pages. Both themes also work without JavaScript using the system preference. The site remains static and requires no build process.
+The site uses a restrained editorial layout, warm off-white background, and blue accents. The home page presents consulting services, past work on iSpot SAGE AI and Ace Metrix, and a mathematics background. Shared typography, keyboard skip links, and responsive layouts carry through to the research pages. A light/dark toggle follows the system preference until a visitor makes a choice, then remembers it across pages. Both themes also work without JavaScript using the system preference. The site remains static and requires no build process.
 
 ## GitHub Pages Compatibility
 

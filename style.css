@@ -133,6 +133,7 @@ nav a.active { text-decoration: underline; text-decoration-color: var(--accent);
 .service p { color: var(--muted); font-size: .96rem; margin-bottom: 0; }
 .project-section h2 { margin-bottom: 42px; }
 .project-grid, .about-grid, .contact-grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.35fr); gap: 12%; }
+.project-grid + .project-grid { margin-top: 48px; padding-top: 48px; border-top: 1px solid var(--line); }
 .project-heading h3 { font-size: 1.8rem; margin-bottom: 1rem; }
 .project-meta { color: var(--muted); font-size: .85rem; line-height: 1.9; }
 .project-copy, .about-copy { color: var(--muted); }
