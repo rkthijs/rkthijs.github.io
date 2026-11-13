@@ -4,7 +4,7 @@ A modern, minimalist personal website hosted on GitHub Pages.
 
 ## Overview
 
-This website presents my work as an AI researcher and mathematician: agentic systems, transformer models, multimodal analysis, and published research. It includes industry experience in marketing and adtech and availability for independent consulting across industries.
+This website presents my work in AI research and technical leadership: NLP, agentic systems, transformer models, multimodal analysis, and published mathematics. It includes industry experience in marketing and adtech and openness to research roles, technical leadership, opportunities with founding teams, and selected consulting across industries.
 
 ## Features
 
@@ -16,7 +16,7 @@ This website presents my work as an AI researcher and mathematician: agentic sys
 
 ## Structure
 
-- `index.html` - Research profile, selected SAGE AI and Ace Metrix work, representative publications, résumé download, and consulting contact
+- `index.html` - Research and technical leadership profile, selected SAGE AI and Ace Metrix work, representative publications, résumé download, and contact
 - `industry.html` - Industry experience, with separate SAGE AI and Ace Metrix entries
 - `research.html` - Publications organized by theme
 - `academic.html` - Academic education, research topics, and CV
@@ -31,7 +31,7 @@ This website presents my work as an AI researcher and mathematician: agentic sys
 
 The top navigation is Home, Industry, Academic, and Publications. Packing Problems and Complex Dynamics are accessible under Research on the Academic page.
 
-The site uses a restrained editorial layout, warm off-white background, and blue accents. The home page leads with a personal research profile, technical contributions to iSpot SAGE AI and Ace Metrix, and selected publications in mathematics and computational neuroscience. A compact consulting section follows the work. Shared typography, keyboard skip links, and responsive layouts carry through to the research pages. A light/dark toggle follows the system preference until a visitor makes a choice, then remembers it across pages. Both themes also work without JavaScript using the system preference. The site remains static and requires no build process.
+The site uses a restrained editorial layout, warm off-white background, and blue accents. The home page leads with research and technical leadership, concrete contributions to iSpot SAGE AI and Ace Metrix, and selected publications in mathematics and computational neuroscience. The SAGE description connects its NLP input pipelines with agentic analysis; the Industry page adds product-development and architecture context. A compact contact section covers roles, founding teams, and consulting. Shared typography, keyboard skip links, and responsive layouts carry through to the research pages. A light/dark toggle follows the system preference until a visitor makes a choice, then remembers it across pages. Both themes also work without JavaScript using the system preference. The site remains static and requires no build process.
 
 ## GitHub Pages Compatibility
 
