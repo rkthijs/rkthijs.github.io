@@ -16,7 +16,7 @@ This website presents my work as an AI researcher and mathematician: agentic sys
 
 ## Structure
 
-- `index.html` - Research profile, selected SAGE AI and Ace Metrix work, representative publications, and consulting contact
+- `index.html` - Research profile, selected SAGE AI and Ace Metrix work, representative publications, résumé download, and consulting contact
 - `industry.html` - Industry experience, with separate SAGE AI and Ace Metrix entries
 - `research.html` - Publications organized by theme
 - `academic.html` - Academic education, research topics, and CV
@@ -25,6 +25,7 @@ This website presents my work as an AI researcher and mathematician: agentic sys
 - `teaching.html` - Teaching and outreach experience
 - `style.css` - Shared responsive typography, layout, and accessibility styles
 - `theme.js` - System theme detection and persistent light/dark preference
+- `output/pdf/Robert_Thijs_Kozma_Resume.pdf` - Public résumé download
 
 ## Design
 
@@ -57,6 +58,8 @@ python3 scripts/version_assets.py
 ```
 
 This updates the asset URLs in every page using content hashes, so browsers fetch the matching files after a deployment instead of reusing an older stylesheet or script.
+
+To update the résumé, rebuild the PDF from the local LaTeX source using `resume/README.md`. Track the generated PDF in `output/pdf/`; the editable source and original résumé in `resume/` remain ignored by Git.
 
 ## Browser Support
 
