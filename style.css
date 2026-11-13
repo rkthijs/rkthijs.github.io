@@ -157,9 +157,25 @@ main.container { max-width: 960px; padding-block: 70px 90px; }
 main.container h2 { margin: 2.5rem 0 1.2rem; padding-bottom: 12px; border-bottom: 1px solid var(--line); font-size: 1.5rem; }
 main.container h3 { margin-top: 2rem; }
 main.container p, main.container li { max-width: 78ch; }
-.publication { margin: 0; padding: 20px 0; border-bottom: 1px solid var(--line); }
-.publication p { margin: 0; }
-main.container h2 + .publication { padding-top: 6px; }
+
+/* Publication index */
+.publications-intro .page-title { margin-bottom: 16px; }
+.publications-intro > p { margin-bottom: 14px; color: var(--muted); font-size: 1.05rem; }
+.publication-topics { display: flex; flex-wrap: wrap; gap: 0 24px; margin-top: 24px; padding-block: 8px; border-block: 1px solid var(--line); }
+.publication-topics a { display: inline-flex; align-items: center; min-height: 44px; font-size: .86rem; text-decoration: none; }
+.publication-topics a:hover { text-decoration: underline; }
+.publication-group { margin-top: 44px; }
+.publications-page .publication-group > h2 { margin: 0; padding: 0 0 14px; border-bottom: 1px solid var(--line); font-size: 1.35rem; letter-spacing: -.025em; scroll-margin-top: 24px; }
+.publications-page .publication { display: grid; grid-template-columns: 48px minmax(0, 1fr); gap: 24px; margin: 0; padding-block: 24px; border-bottom: 1px solid var(--line); }
+.publication-group .publication:last-child { border-bottom: 0; padding-bottom: 0; }
+.publication-year { padding-top: 3px; color: var(--muted); font-size: .84rem; font-variant-numeric: tabular-nums; }
+.publication-body { min-width: 0; }
+.publications-page .publication-title { margin: 0 0 8px; font-size: 1.07rem; line-height: 1.45; letter-spacing: -.015em; text-wrap: pretty; }
+.publications-page .publication-authors { margin: 0 0 4px; color: var(--muted); font-size: .9rem; }
+.publications-page .publication-venue { margin: 0; color: var(--muted); font-size: .86rem; }
+.publication-links { display: flex; flex-wrap: wrap; gap: 0 20px; margin-top: 6px; }
+.publication-links a { display: inline-flex; align-items: center; min-height: 44px; font-size: .84rem; text-decoration: none; }
+.publication-links a:hover { text-decoration: underline; }
 
 /* Industry experience */
 .industry-page { padding-block: 70px 72px; }
@@ -216,6 +232,10 @@ main.container h2 + .publication { padding-top: 6px; }
   .research-grid { gap: 28px; }
   .contact-grid { gap: 24px; }
   main.container { padding-block: 44px 64px; }
+  .publication-topics { column-gap: 20px; }
+  .publication-group { margin-top: 36px; }
+  .publications-page .publication { grid-template-columns: 38px minmax(0, 1fr); gap: 16px; padding-block: 20px; }
+  .publications-page .publication-title { font-size: 1rem; }
   .industry-page { padding-block: 44px 56px; }
   .industry-intro { margin-bottom: 36px; }
   .industry-employer, .industry-project { grid-template-columns: 1fr; gap: 20px; }
