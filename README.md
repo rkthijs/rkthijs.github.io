@@ -4,7 +4,7 @@ A modern, minimalist personal website hosted on GitHub Pages.
 
 ## Overview
 
-This website presents my independent AI consulting services and experience in marketing and adtech, with an invitation to projects across industries. It covers generative AI, agentic systems, and multimodal AI, along with my academic background in mathematics.
+This website presents my work as an AI researcher and mathematician: agentic systems, transformer models, multimodal analysis, and published research. It includes industry experience in marketing and adtech and availability for independent consulting across industries.
 
 ## Features
 
@@ -16,7 +16,7 @@ This website presents my independent AI consulting services and experience in ma
 
 ## Structure
 
-- `index.html` - Consulting services, selected SAGE AI and Ace Metrix work, background, and contact
+- `index.html` - Research profile, selected SAGE AI and Ace Metrix work, representative publications, and consulting contact
 - `industry.html` - Industry experience, with separate SAGE AI and Ace Metrix entries
 - `research.html` - Publications organized by theme
 - `academic.html` - Academic education, research topics, and CV
@@ -30,7 +30,7 @@ This website presents my independent AI consulting services and experience in ma
 
 The top navigation is Home, Industry, Academic, and Publications. Packing Problems and Complex Dynamics are accessible under Research on the Academic page.
 
-The site uses a restrained editorial layout, warm off-white background, and blue accents. The home page presents consulting services, past work on iSpot SAGE AI and Ace Metrix, and a mathematics background. Shared typography, keyboard skip links, and responsive layouts carry through to the research pages. A light/dark toggle follows the system preference until a visitor makes a choice, then remembers it across pages. Both themes also work without JavaScript using the system preference. The site remains static and requires no build process.
+The site uses a restrained editorial layout, warm off-white background, and blue accents. The home page leads with a personal research profile, technical contributions to iSpot SAGE AI and Ace Metrix, and selected publications in mathematics and computational neuroscience. A compact consulting section follows the work. Shared typography, keyboard skip links, and responsive layouts carry through to the research pages. A light/dark toggle follows the system preference until a visitor makes a choice, then remembers it across pages. Both themes also work without JavaScript using the system preference. The site remains static and requires no build process.
 
 ## GitHub Pages Compatibility
 
