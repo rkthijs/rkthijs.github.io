@@ -17,8 +17,9 @@ This website presents my independent AI consulting services and experience in ma
 ## Structure
 
 - `index.html` - Consulting services, selected SAGE AI and Ace Metrix work, background, and contact
+- `industry.html` - Industry experience, with separate SAGE AI and Ace Metrix entries
 - `research.html` - Publications organized by theme
-- `academic.html` - Academic education, research, and CV
+- `academic.html` - Academic education, research topics, and CV
 - `SVOHP.html` - Horoball packing problems visualization
 - `JuliaSets.html` - Complex dynamics and Julia sets
 - `teaching.html` - Teaching and outreach experience
@@ -26,6 +27,8 @@ This website presents my independent AI consulting services and experience in ma
 - `theme.js` - System theme detection and persistent light/dark preference
 
 ## Design
+
+The top navigation is Home, Industry, Academic, and Publications. Packing Problems and Complex Dynamics are accessible under Research on the Academic page.
 
 The site uses a restrained editorial layout, warm off-white background, and blue accents. The home page presents consulting services, past work on iSpot SAGE AI and Ace Metrix, and a mathematics background. Shared typography, keyboard skip links, and responsive layouts carry through to the research pages. A light/dark toggle follows the system preference until a visitor makes a choice, then remembers it across pages. Both themes also work without JavaScript using the system preference. The site remains static and requires no build process.
 
