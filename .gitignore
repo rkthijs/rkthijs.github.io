@@ -1,3 +1,10 @@
 /Kozma Robert Reviews/
 /resume/
+/applications/
+/context/
+/kozma-career/
+/output/*
+!/output/pdf/
+/output/pdf/*
+!/output/pdf/Robert_Thijs_Kozma_Resume.pdf
 .DS_Store

@@ -59,7 +59,16 @@ python3 scripts/version_assets.py
 
 This updates the asset URLs in every page using content hashes, so browsers fetch the matching files after a deployment instead of reusing an older stylesheet or script.
 
-To update the résumé, rebuild the PDF from the local LaTeX source using `resume/README.md`. Track the generated PDF in `output/pdf/`; the editable source and original résumé in `resume/` remain ignored by Git.
+Résumé authoring lives in the separate **private `kozma-career` repository**. It contains the editable master, original résumé, private review context, application-specific variants, and cover-letter workflow. None of those inputs belongs in this public repository.
+
+From the private checkout, rebuild and deliberately export the general résumé:
+
+```bash
+python3 scripts/career.py build
+python3 scripts/career.py publish-website --website ../rkthijs.github.io --confirm-public
+```
+
+The export copies only the freshly built general résumé PDF to `output/pdf/Robert_Thijs_Kozma_Resume.pdf`, preserving the website's existing download URL. Review the public diff, then commit and push it here. Job-specific résumés, cover letters, job descriptions, and private context stay in the private repository. The public website needs no access token or connection to that repository. Ignore rules retain protection for the former local source/review directories and allow only the selected résumé PDF under `output/`.
 
 ## Browser Support
 
